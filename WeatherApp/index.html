@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <!-- search content -->
+        <div class="search">
+            <input type="text" placeholder="Enter city Name" spellcheck="false">
+            <button type="button"><img src="./images/search.png" alt="search"></button>
+        </div>
+
+        <!-- Error -->
+
+        <div class="err">
+            <p>No City Found</p>
+        </div>
+        <!-- Error End  -->
+
+        <!-- Main content -->
+
+        <div class="weather">
+            <img src="./images/rain.png" alt="rain.png" class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+
+                <!-- first col -->
+
+                <div class="col">
+                    <img src="./images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <!-- first col End-->
+                <!-- second col -->
+                <div class="col">
+                    <img src="./images/wind.png" alt="">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+                <!-- second col End -->
+            </div>
+
+        </div>
+        <!-- Main Content End -->
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
